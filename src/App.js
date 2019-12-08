@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       Testing continuous deployment for Heroku with Github Actions!
       <b>Made a change!</b>
+      <small>Hello</small>
     </div>
   );
 }
