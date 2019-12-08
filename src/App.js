@@ -5,8 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h3>Continuous Deployment Test</h3>
-      <small>-Bye</small>
+      <div>
+        <h3>Continuous Deployment Test</h3>
+        <small>-Bye</small>
+      </div>
     </div>
   );
 }
