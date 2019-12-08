@@ -7,7 +7,7 @@ jobs:
   deployToHeroku:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploying to Heroku
+    - name: Deploying to Heroku
       env:
         HEROKU_API_TOKEN: ${{secrets.HEROKU_API_TOKEN}}
         HEROKU_APP_NAME: ${{HEROKU_APP_NAME}}
